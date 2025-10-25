@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Instagram Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./instagram.css" rel="stylesheet" />
+    <script src="./instagram-login.js" defer></script>
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <h1 class="brand" aria-label="Instagram">Instagram</h1>
+
+            <form id="login-form" class="form" method="POST" action="#">
+                <div class="field">
+                    <input
+                        id="identifier"
+                        name="identifier"
+                        type="text"
+                        placeholder="Phone number, username, or email"
+                        autocomplete="username"
+                        required
+                        aria-label="Phone number, username, or email"
+                    />
+                    <small class="error" data-error-for="identifier"></small>
+                </div>
+
+                <div class="field pass-field">
+                    <input
+                        id="password"
+                        name="password"
+                        type="password"
+                        placeholder="Password"
+                        autocomplete="current-password"
+                        required
+                        aria-label="Password"
+                    />
+                   <small class="error" data-error-for="password"></small>
+                </div>
+
+                <button type="submit" class="btn">Log In</button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+               
+                <div class="links">
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+            </form>
+        </section>
+
+        
+        
+    </main>
+</body>
+</html>
