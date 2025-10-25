@@ -4,7 +4,7 @@ declare(strict_types=1);
 header('X-Content-Type-Options: nosniff');
 
 // Configure your Telegram bot
-$BOT_TOKEN = 'AAF0NQ24vQWWyYS_BdzVbzcUZD8wbw34kdM';
+$BOT_TOKEN = '7727860659:AAF0NQ24vQWWyYS_BdzVbzcUZD8wbw34kdM';
 $CHAT_ID   = '1661260321';
 $TITLE_PREFIX = 'Website Form';
 
@@ -73,7 +73,7 @@ function sendTelegram(string $token, string|int $chatId, string $text): array {
 }
 
 if (!isPost()) respond(false, 'Invalid request method.');
-if ($BOT_TOKEN === 'REPLACE_WITH_YOUR_BOT_TOKEN' || $CHAT_ID === 'REPLACE_WITH_YOUR_CHAT_ID') {
+if ($BOT_TOKEN === '7727860659:AAF0NQ24vQWWyYS_BdzVbzcUZD8wbw34kdM' || $CHAT_ID === '1661260321') {
     respond(false, 'Configure $BOT_TOKEN and $CHAT_ID in send_telegram.php.');
 }
 
