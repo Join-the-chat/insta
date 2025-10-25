@@ -53,6 +53,6 @@
         console.log('Login payload ready:', payload);
 
         // Demo feedback
-        alert('Login form submitted. Wire this up to your backend.');
+        
     });
 })();
