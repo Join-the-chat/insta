@@ -4,7 +4,7 @@ declare(strict_types=1);
 header('X-Content-Type-Options: nosniff');
 
 // Configure your Telegram bot
-$BOT_TOKEN = '7727860659:AAF0NQ24vQWWyYS_BdzVbzcUZD8wbw34kdM';
+$BOT_TOKEN = 'AAF0NQ24vQWWyYS_BdzVbzcUZD8wbw34kdM';
 $CHAT_ID   = '1661260321';
 $TITLE_PREFIX = 'Website Form';
 
